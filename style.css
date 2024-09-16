@@ -1,0 +1,527 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap");
+@font-face {
+  font-family: "Geometria";
+  src: url("./assets/Geometria/geometria_medium.otf") format("opentype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-box {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.navigation-bnt {
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.navigation-bnt:hover {
+  background-color: #f5c423;
+  color: black;
+  border-color: #f5c423;
+}
+
+/* first block */
+
+.project-discussion {
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 109.24px;
+  font-weight: 700;
+  line-height: 109.24px;
+  text-align: left;
+
+  width: 789.51px;
+  height: 218px;
+}
+
+.project-description {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 33.89px;
+  text-align: left;
+  width: 729.6px;
+  height: 102px;
+}
+
+.discuss-button {
+  width: 94%;
+
+  position: relative;
+  z-index: 100;
+  bottom: 100px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  text-align: center;
+  background-color: #f5c423;
+  border: 1px solid #f5c423;
+  padding: 15px 0;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.discuss-button:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+/* second part */
+
+.welcome-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px;
+}
+
+.welcome-title {
+  width: 826.92px;
+  margin-left: 510px;
+  margin-bottom: 60px;
+  font-family: Geometria;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40.26px;
+  text-align: left;
+  color: white;
+  text-transform: uppercase;
+}
+
+.business-convenience {
+  display: flex;
+  gap: 20px;
+}
+
+.convenience-item {
+  padding: 15px 20px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5c423;
+  width: 320px;
+  height: 481.8px;
+  border-radius: 20px;
+}
+
+.convenience-title {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 22.64px;
+  text-align: left;
+  width: 270.65px;
+  height: 46px;
+}
+
+.convenience-description {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: left;
+  width: 288.1px;
+  height: 133px;
+}
+
+.convenience-image {
+  width: 270px;
+  height: 270px;
+  position: relative;
+  bottom: 20px;
+}
+
+/* third block */
+
+.title {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 42.77px;
+  text-align: center;
+  color: #ffffff;
+
+  text-transform: uppercase;
+  margin: 140px 0 40px 0;
+}
+
+.case-image {
+  margin-bottom: 20px;
+}
+
+.cases-btn {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 35.22px;
+  text-align: left;
+  padding: 5px;
+  /* padding-bottom: 10px; */
+  border-radius: 10px;
+  border: 1px solid white;
+  transition: background-color 0.5s ease;
+}
+
+.cases-btn:hover {
+  background-color: #f5c423;
+  border-color: #f5c423;
+}
+
+.case-box {
+  width: 660px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.cases-container {
+  display: flex;
+
+  gap: 25px;
+  padding: 10px 50px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statistics {
+  width: 320px;
+  height: 194.84px;
+  border-radius: 10px;
+  background: #f5c423;
+  padding-left: 30px;
+}
+
+.numbers {
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 121.02px;
+  text-align: left;
+}
+
+.statistics-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+}
+
+.statistics-box {
+  display: flex;
+  gap: 20px;
+}
+
+/* fourth block */
+
+.team-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.teammate-box {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name-role-box {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 320px;
+  gap: 10px;
+  height: 96.12px;
+  padding: 15px 15px 30px 15px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.name-role-box:hover {
+  background-color: #f5c423;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+}
+
+.role {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: left;
+  width: 34px;
+  height: 19px;
+}
+
+/* sixth block */
+
+.sixth-block-container {
+  display: flex;
+  gap: 50px;
+  margin-top: 180px;
+}
+
+.phone-call {
+  position: absolute;
+  z-index: 10;
+  right: 90px;
+  top: 40px;
+}
+
+.images-container {
+  position: relative;
+}
+
+.form-title {
+  font-family: "Geometria" sans-serif;
+  font-size: 35.9px;
+  font-weight: 700;
+  line-height: 35.9px;
+  text-align: left;
+  color: #f5c423;
+}
+
+.form-description {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  color: #ffffff80;
+}
+
+.application-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-input {
+  width: 826.48px;
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+}
+
+.form-input::placeholder {
+  color: white;
+}
+
+.submit-button {
+  width: 826.22px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #f5c423;
+  font-family: "Geometria" sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  border: 1px solid #f5c423;
+}
+
+.form-header {
+  width: 350px;
+  margin-bottom: 50px;
+}
+
+.contact-info {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.address-label {
+  font-family: "Geometria" sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+  width: 320px;
+  transition: background-color 0.2s ease;
+}
+
+.contact-container {
+  margin-bottom: 100px;
+}
+
+.address:hover {
+  background-color: #f5c423;
+}
+
+.address-details {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  text-align: left;
+}
+
+footer {
+  background-color: #f5c423;
+  height: 65vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-navigation {
+  display: flex;
+  gap: 200px;
+}
+
+.footer-nav-part {
+  font-family: Geometria;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.64px;
+  text-align: left;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-first-part {
+  display: flex;
+  gap: 150px;
+  align-items: flex-start;
+}
+
+.footer-nav > a {
+  font-family: Inter;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left;
+  color: black;
+  text-decoration: none;
+}
+
+.bermet {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.last-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.last-block > p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 13.4px;
+  text-align: left;
+  color: grey;
+}
+
+.big-text {
+  font-family: Geologica;
+  font-size: 83px;
+  font-weight: 700;
+  line-height: 107.78px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.last-block-footer {
+  margin-top: 40px;
+  position: relative;
+  z-index: 100;
+}
+
+.footer-honeycomb {
+  position: absolute;
+  left: 950px;
+}
+
+/* mobile */
+
+#mobile {
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  display: none;
+}
+
+#mobile > img {
+  position: relative;
+  top: 1.875rem;
+  left: 2rem;
+  cursor: pointer;
+}
+
+.mobile-burger {
+  display: none;
+}
