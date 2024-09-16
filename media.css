@@ -474,21 +474,21 @@
   /* fhsjahasdhfajsdhflkashdlfkjahsdfh */
 
   .cases-container {
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-        padding-left: 20px;
-      }
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    padding-left: 20px;
+    width: 100%;
+  }
 
-      
-      .case-image {
-        width: 430px;
-      }
-    
-      .case-box {
-        width: 430px;
-      }
-    
-      .cases-mobile {
-      }
+  .case-image {
+    width: 100%;
+  }
+
+  .case-box {
+    width: 100%;
+  }
+
+  .cases-mobile {
+  }
 }
