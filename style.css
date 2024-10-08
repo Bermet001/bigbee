@@ -111,6 +111,54 @@ header {
   border-color: black;
 }
 
+/* medina */
+
+.advantages {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 401px;
+  height: 295px;
+  border-radius: 9.3px;
+  border: 1px solid #f5c423;
+}
+
+.advantages-container {
+  display: flex;
+  gap: 20px;
+}
+.advantages-icons-box {
+  display: flex;
+  position: relative;
+  top: 130px;
+  right: 135px;
+  justify-content: space-around;
+}
+
+.honeycomb {
+  position: relative;
+  bottom: 80px;
+  left: 140px;
+  width: 100px;
+  height: 100px;
+  background-color: #f5c423;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.advantages > img {
+}
+
+.advantages > p {
+  font-family: Geometria;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25.16px;
+  text-align: left;
+}
 /* second part */
 
 .welcome-section {
